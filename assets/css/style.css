@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #7b7c7e;
+  background-color: #fcfcfc;
 }
 
 a {
@@ -288,12 +289,13 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(243, 250, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
+  
 }
 
 #hero h1 {
@@ -512,6 +514,9 @@ section {
   background-color: #0563bb;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -617,7 +622,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1153,7 +1158,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #77b7f8;
   color: #45505b;
   font-size: 14px;
   text-align: center;
